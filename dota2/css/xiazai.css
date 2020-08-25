@@ -1,0 +1,465 @@
+@charset "utf-8";
+
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #1a1b1e;
+    min-width: 1200px;
+}
+
+/* 导肮条 */
+#nav{
+    width: 100%;
+    height: 80px;
+    background: url(../images/nav_back.png) center top no-repeat;
+    color: #827c79;
+    font: 16px/16px 'Microsoft YaHei';
+}
+#nav .nav_con{
+    width: 1200px;
+    height: 80px;
+    margin: 0 auto;
+}
+#nav .nav_con .nav_go{
+    float: left;
+    display: block;
+    width: 260px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    background: url(../images/logo.png) center top no-repeat;
+
+}
+#nav .nav_con .nnav{
+    width: 644px;
+    height: 80px;
+    float: left;
+}
+#nav .nav_con .nnav li{
+    position: relative;
+    width: 92px;
+    height: 80px;
+    text-align: center;
+    float: left;
+}
+#nav .nav_con .nnav li .link-nav{
+width: 78px;
+height: 34px;
+display: block;
+padding: 23px 7px;
+cursor: pointer;
+}
+#nav .nav_con .nnav li .link-nav span{
+    display: block;
+    font-size: 16px;
+    color: #827c79;
+}
+#nav .nav_con .nnav li .link-nav span:nth-child(2){
+   
+    margin-top: 2px;
+    font-size: 12px;
+    transform: scale(0.75);
+    line-height: 16px;
+}
+#nav .nav_con .nnav li .link-nav:hover span{
+    color: #00C0FF;
+}
+#nav .nav_con .nnav li div{
+    position: absolute;
+    display: none;
+    top: 70px;
+    left: 0;
+    width: 100%;
+    height: 278px;
+    font-size: 15px;
+    line-height: 30px;
+    text-align: center;
+    background: url(../images/nav_back1.png) top center no-repeat;
+    background-size: cover;
+}
+#nav .nav_con .nnav li .nav-s a{
+    display: block;
+    font-size: 15px;
+    color: #827c79;
+    line-height: 30px;
+    text-align: center;
+}
+#nav .nav_con .nnav li:hover .nav-s{
+    display: block;
+    z-index: 2;
+}
+#nav .nav_con .nnav li .nav-s a:hover{
+    color: #00C0FF;
+}
+#nav .nav_con .nav-user{
+    float: right;
+    width: 234px;
+    height: 100%;
+    margin-right: 0;
+    color: #ccc;
+}
+#nav .nav_con .nav-user i{
+    display: block;
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-top: 13px;
+    box-sizing: content-box;
+    border-radius: 50%;
+    background-image: url(../images/小图标.png);
+    background-position: 13px -451px;
+    border: 1px solid #262323;
+}
+#nav .nav_con .nav-user span{
+    display: block;
+    float: left;
+    line-height: 1.2;
+    margin-top: 17px;
+    margin-left: 10px;
+    font-size: 18px;
+    white-space: nowrap
+}
+#nav .nav_con .nav-user span a{
+    color: #00b7f4;
+    font-size: 18px;
+}
+#nav .nav_con .nav-user p{
+    float: left;
+    margin-left: 10px;
+    font-size: 12px;
+    color: #898989;
+    padding: 0;
+    line-height: 1.5;
+}
+
+#banner{
+    background: url(../images/咨询banner.jpg) top center no-repeat;
+    width: 100%;
+    height: 890px;
+    background-position: top center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+.main-con{
+    position: relative;
+    width: 1200px;
+    height: 1973px;
+    margin: -480px auto 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline
+}
+
+
+
+
+ .news_header {
+    padding: 20px;
+    width: 1160px;
+    background-color: #ededed;
+    overflow: hidden;
+    border-bottom: 1px solid #d9d9d9;
+    float: left;
+}
+
+
+ .news_header h3 {
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 26px;
+    margin-left: 30px;
+    font: 16px/1.5 "MicroSoft YaHei";
+    color: #666;
+}
+.news_header h3 a{
+    color: #666;
+    outline: none;
+    text-decoration: none;
+}
+
+
+
+
+
+
+/* zzzzzz */
+.news-start{
+    float: left;
+    width: 870px;
+    height: 1530px;
+    box-sizing: border-box;
+    padding-left: 50px;
+    background-color: #f5f5f5;
+}
+.down_h1{
+	color:#404040; 
+	font-size:50px; 
+	font-weight:bold; 
+	height:70px;
+	padding-bottom: 20px;
+    line-height: 2;
+}
+.down_h1 span{
+	font-size:30px;
+}
+.down_vio {
+	font-size: 14px;
+    color: rgb(64, 64, 64);
+    line-height: 22px;
+    padding-bottom: 10px;
+}
+.down_ul {
+	height: 67px;
+}
+.down_pub {
+	position: relative;
+	padding-bottom: 50px;
+	
+}
+.down_pub::before {
+	content: ' ';
+	width: 780px;
+	height: 1px;
+	background-color: #ececec;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.bor_none::before {
+	height: 0px;
+}
+.down_share {
+	float: right;
+	padding-right: 20px;
+	margin-top: -23px;
+}
+.down_ul a.down_btn1 {
+	display: block;
+    width: 267px;
+    height: 67px;
+    background: url(../images/xiazai.png) no-repeat 0 0;
+}
+.pub_h2s {
+	position: relative;
+	margin-top: 44px;
+	padding-left: 20px;
+    font-size: 20px;
+    color: rgb(64, 64, 64);
+    line-height: 1.2;
+
+}
+.pub_h2s:before {
+	content: ' ';
+	position: absolute;
+	left: 0;
+	top: 0;
+	width: 4px;
+	height: 22px;
+	background-color: #379be9;
+}
+/* .down_lc {
+	background: url(../images/xztb.png) no-repeat 0 0;
+    height: 250px;
+    position: relative;
+} */
+.down_lc a {
+	display: block;
+    position: absolute;
+    height: 67px;
+    top: 0;
+    color: #a1a1a1;
+    font-weight: bold;
+    font-size: 18px;
+}
+.down_lc a.lc_btn1 {
+	left: 2px;
+	top: 31px;
+    width: 205px;
+}
+.down_lc a.lc_btn2 {
+	left: 199px;
+    top: 158px;
+    width: 205px;
+}
+.down_lc a.lc_btn3 {
+	left: 598px;
+    top: 161px;
+    width: 205px;
+}
+.down_ps {
+	font-size: 14px;
+}
+.down_ps p span {
+	color: #379be9;
+}
+.down_media {
+	height: 52px;
+	margin-top: 30px;
+}
+.down_media ul li {
+	float: left;
+	width: 170px;
+	height: 52px;
+	margin-right: 43px;
+}
+.down_media ul li a {
+	display: block;
+	line-height: 52px;
+	text-align: center;
+	color: #f5f5f5;
+	font-size: 18px;
+	background-color: #379be9;
+}
+.down_media ul li:last-child {
+	margin-right: 0;
+}
+
+.peizhi{color:#000; font-size:14px; line-height:24px;}
+.peizhi table { margin-left: 110px;}
+.peizhi h3{font-size:20px; padding-bottom:6px; padding-top: 20px;}
+.peizhi table td.left{width:80px; text-align:right; color: rgb(64, 64, 64);}
+.peizhi table td.right{color:#379be9;}
+
+.otherdown {
+	background: url(/images/temp140515/MD5sprites.png) no-repeat 0 0;
+	height: 108px;
+	margin-top: 28px;
+}
+.otherdown a {
+	float: left;
+    width: 106px;
+    height: 106px;
+    margin-right: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* 右边 */
+.main-con .bar{
+    width: 248px;
+    height: 1512px;
+    background-color: #f2f2f2;
+    float: right;
+    padding-left: 22px;
+    padding-right: 60px;
+    padding-top: 18px;
+}
+.main-con .bar h2{
+    position: relative;
+    margin-top: 44px;
+    padding-left: 20px;
+    font-size: 20px;
+    color: rgb(64, 64, 64);
+    line-height: 1.2;
+}
+.main-con .bar h2:before{
+    content: ' ';
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 4px;
+    height: 22px;
+    background-color: #379be9;
+}
+
+
+.quesul {
+	padding-top: 15px;
+	padding-left: 18px;
+}
+.queslist li {
+	list-style-type: decimal-leading-zero;
+}
+.queslist li, .queslist li a {
+	color: rgb(64,64,64);
+	font-size: 12px;
+	line-height: 2.5;
+}
+.queslist li a:hover {
+	color: #379be9;
+    text-decoration: underline;
+}
+.ask_btn {
+	background: url(../images/xiazai.png) no-repeat -269px 0;
+    width: 169px;
+    height: 51px;
+    display: block;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+/* footer */
+.bottom {
+    font-family: 'Microsoft YaHei', '微软雅黑', Arial, 'Helvetica Neue', Helvetica, 'sans-serif';
+    height: 180px;
+    background-color: #000;
+    background-repeat: no-repeat;
+    z-index: 1;
+    font-size: 12px;
+    color: #959595;
+    position: relative;
+    margin-top: 150px;
+}
+.rel1100 {
+    margin: 0 auto;
+    width: 1004px;
+    position: relative;
+}
+.foot_dl {
+    position: absolute;
+    top: 40px;
+}
+.foot_dl dt {
+    float: left;
+    padding-left: 7px;
+}
+.foot_dl dt a.wanmei {
+    border-right: 1px solid #000;
+    float: left;
+    padding: 0 11px;
+    outline: none;
+    text-decoration: none;
+}
+.bottom .rel1100 .certificate {
+    position: absolute;
+    top: 85px;
+    left: 85px;
+    line-height: 1.5;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+.bottom .rel1100 .remark {
+    position: absolute;
+    top: 122px;
+    left: 260px;
+    line-height: 1.5;
+    font-size: 12px;
+    color: #333;
+    text-align: center;
+}
+
+.hid{
+    display: none;
+}

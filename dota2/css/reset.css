@@ -1,0 +1,35 @@
+@charset "utf-8";
+body,div,h1,h2,h3,h4,h5,h6,p,ul,li,input,fieldset,th,td,ol,dl,dt,dd,legend,form{
+    padding:0;
+    margin: 0;
+}
+a,u{
+    text-decoration: none;
+}
+ul,ul,ol{
+    list-style:none;
+}
+i,em{
+    font-style: normal;
+}
+b,strong{
+    font-style:normal;
+}
+image{
+    display:block;
+    border:0;
+}
+clear_fix::after{
+    content:'.';
+    display:block;
+    height: 0;
+    clear:both;
+    overflow:hidden;
+    visibility:hidden;
+}
+clear_fix::after{
+    zoom:1;
+}
+input,button{
+    outline: none;
+}
